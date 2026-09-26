@@ -1,0 +1,61 @@
+﻿START Program
+
+
+LOAD mission csv file into program data storage:
+  -DETERMINE grid size from mission data
+  -APPLY effects to relevant “tiles” (essentially apply hazards and clues to the proper sections of               the mission grid and store correct values for each given)
+
+
+SET rover status:
+  -SET rover position to (0,0)
+  -SET rover energy to 100
+  -SET rover hull integrity to 100
+  -SET rover depth
+
+
+SET game status:
+  -SET clue score to 0
+  -SET clue target to 6
+  -SET total time to 0
+
+
+CREATE searched locations list [empty]
+
+
+DISPLAY rover status and game status
+
+
+WHILE Mission is active
+  PROMPT user for movement direction 
+    CALCULATE new position 
+    IF move exits grid 
+      DISPLAY error message 
+      CONTINUE loop 
+    ELSE 
+      RETRIEVE destination tile data 
+      CALCULATE energy loss
+      CALCULATE hull integrity loss
+  UPDATE rover status
+  UPDATE mission information:
+    IF energy <=10 OR hull integrity <= 10
+      END mission 
+PROPMT user if they want to search
+  IF yes
+    IF location is on searched locations list 
+      DISPLAY “location already searched”
+    ELSE
+      ADD location to searched locations list
+      UPDATE location type 
+      IF location is treasure 
+      DISPLAY “mission success”
+      END mision 
+  ELSE
+      APPLY tile effects
+      UPDATE energy
+      UPDATE hull integrity
+      UPDATE clue score 
+      UPDATE plot display
+      IF energy <=10 OR hull integrity <= 10
+        END mission
+WHILE mission status = complete 
+  DISPLAY mission summary: all mission stats, rover stats, and treasure status
