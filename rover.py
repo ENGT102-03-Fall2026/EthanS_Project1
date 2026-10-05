@@ -1,17 +1,20 @@
 #Ethan Swann
 #ENGT-102_Project 1
 
-current_x=int()
-current_y=int()
-current_depth=float()
-energy_remaining=float()
-hull_integrity=float()
-clue_points=int()
-total_time=float()
-searched_locations=[]
-time_history=[]
-energy_history=[]
-hull_history=[]
+rover_state = {
+    "current_x": 0,
+    "current_y": 0,
+    "current_depth": 2.0,
+    "energy_remaining": 100.0,
+    "hull_integrity": 100.0,
+    "clue_points": 0,
+    "total_time": 0.0,
+    "searched_locations": [],
+    "time_history": [0.0],
+    "energy_history": [100.0],
+    "hull_history": [100.0]
+}
+#Above is the rover state in a dictionary format for ease of use
 
 def get_direction():
     Possible_directions=["forward", "backward","left","right"]
