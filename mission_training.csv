@@ -1,0 +1,32 @@
+0,0,None,Deployment point near the riverbank,2.0,1.0,1.00
+1,0,Low Value Clue,A weathered brass marker rests in the silt,2.5,10.6,1.85
+2,0,None,Open riverbed contains no useful recovery evidence,3.0,7.0,2.20
+3,0,Low Hazard,Light debris drifts close to the riverbed,3.4,10.6,2.55
+0,1,Low Hazard,Thin weeds brush the rover frame,2.8,9.4,2.20
+1,1,None,The search area contains ordinary gravel and silt,3.1,13.0,2.55
+2,1,Strong Clue,An engraved anchor plate matches the expedition records,4.0,9.4,2.90
+3,1,Medium Hazard,A tangle of branches restricts the approach,5.8,13.0,1.50
+0,2,Strong Clue,A sealed brass tag contains a recognizable Flint symbol,3.2,11.8,2.90
+1,2,None,No mission evidence is visible at this location,3.6,8.2,1.50
+2,2,Low Hazard,A mild current pushes across the search lane,4.4,11.8,1.85
+3,2,High Hazard,Dense submerged debris threatens the rover hull,7.0,8.2,2.20
+0,3,None,Open riverbed contains no useful recovery evidence,3.7,7.0,1.85
+1,3,High Value Clue,A carved stone marker provides a strong location reference,4.0,10.6,2.20
+2,3,None,The search area contains ordinary gravel and silt,4.3,7.0,2.55
+3,3,Low Value Clue,A small iron fitting carries a faded pirate mark,5.2,10.6,2.90
+0,4,High Value Clue,A preserved navigation plate reveals a major recovery clue,4.2,9.4,2.55
+1,4,None,No mission evidence is visible at this location,4.7,13.0,2.90
+2,4,Strong Clue,A marked chain link confirms the rover is on the correct trail,5.0,9.4,1.50
+3,4,Medium Hazard,Broken masonry creates a narrow passage,5.8,13.0,1.85
+0,5,None,Open riverbed contains no useful recovery evidence,4.6,11.8,1.50
+1,5,Low Hazard,Light debris drifts close to the riverbed,5.0,8.2,1.85
+2,5,Strong Clue,An engraved anchor plate matches the expedition records,5.5,11.8,2.20
+3,5,Low Hazard,Thin weeds brush the rover frame,6.1,8.2,2.55
+0,6,Medium Hazard,A strong cross current forces careful maneuvering,5.0,7.0,2.20
+1,6,None,The search area contains ordinary gravel and silt,5.4,10.6,2.55
+2,6,High Hazard,A steep rocky ledge creates a severe collision risk,6.8,7.0,2.90
+3,6,Treasure,Captain Flint treasure chest is wedged beneath the riverbed ledge,6.2,10.6,1.50
+0,7,None,No mission evidence is visible at this location,5.5,9.4,2.90
+1,7,Low Value Clue,A fragment of marked wood lies on the riverbed,5.9,13.0,1.50
+2,7,None,Open riverbed contains no useful recovery evidence,6.4,9.4,1.85
+3,7,Medium Hazard,A tangle of branches restricts the approach,6.9,13.0,2.20
